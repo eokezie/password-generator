@@ -22,8 +22,8 @@ export const Indicator: React.FC<IndicatorProps> = ({ options }) => {
                 {options.map((option) => (
                     <div 
                         key={option.label}
-                        className='indicator__data-grid__item'
-                    />
+                        className='indicator_data-grid_item'
+                    ></div>
                 ))}
             </div>
         </div>

@@ -19,14 +19,14 @@ export const Slider: React.FC<SliderProps> = ({ characters, charactersValue, set
                 <input 
                     onChange={(e: any) => setCharactersValue(e.target.value)}
                     type='range'
-                    min='10'
+                    min='0'
                     max='100'
                     value={charactersValue}
                     id='custom-range'
                 />
                 <div 
                     className='slider__wrapper--content'
-                    style={{ width: `${charactersValue - 1}` }}
+                    style={{ width: `${charactersValue - 1}%` }}
                 />
             </div>
         </div>

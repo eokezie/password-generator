@@ -67,9 +67,8 @@
     padding: 64px 16px;
     flex-direction: column;
     color: white;
-    width: 100vw;
-    height: 100vh;
     gap: 16px;
+    overflow-x: hidden;
   
   }
   
